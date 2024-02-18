@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn {
+    text-align: center;
+    width: 150px;
+    margin: 20px auto;
+}
+
+.btn button {
+    background: transparent;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
